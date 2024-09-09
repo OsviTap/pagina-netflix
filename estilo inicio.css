@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/21a8ba09-4a61-44f8-8e2e-70e949c00c6f/3d448a03-ad3d-4b61-a190-d9fe0d1c403a/BO-es-20240722-POP_SIGNUP_TWO_WEEKS-perspective_WEB_9889955b-0a6a-482b-9604-0f52b788db99_large.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0); 
+}
+
+.logo {
+    width: 100px; /* Tamaño mediano */
+}
+
+.dropdown {
+    width: 500px;
+    display: flex;
+    margin-left: 700px;
+    gap: 20px;
+    align-items: center;
+}
+
+.dropdown img {
+    width: 30px; 
+    margin-right: 5px; 
+}
+.dropdown select {
+    background: rgba(255, 255, 255, 0); 
+    border-color: white ;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 5px; 
+    color: white;
+}
+
+.icono {
+    width: 30px; 
+    margin-right: 10px;
+}
+
+.login-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 120px;
+}
+
+.background-image {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.email-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.email-container input[type="email"] {
+    background: rgba(0, 0, 0, 0.582); 
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    
+}
+.email-container input[type="email"]::placeholder {
+    color: rgb(163, 163, 163);
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.start-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
